@@ -53,7 +53,3 @@ fclean: clean
 	rm -f $(B_NAME)
 
 re: fclean all
-
-tester: $(NAME)
-	cd tester; \
-	docker build -t test_grind . && docker run --ulimit nofile=1024:1024 -it test_grind
