@@ -3,7 +3,7 @@
 /*                                                        ::::::::            */
 /*   parse_arg.c                                        :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: lvan-gef <marvin@codam.nl>                   +#+                     */
+/*   By: lvan-gef <lvan-gef@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/06/20 17:50:47 by lvan-gef      #+#    #+#                 */
 /*   Updated: 2023/06/20 17:50:50 by lvan-gef      ########   odam.nl         */

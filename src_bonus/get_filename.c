@@ -3,7 +3,7 @@
 /*                                                        ::::::::            */
 /*   get_filename.c                                     :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: lvan-gef <marvin@codam.nl>                   +#+                     */
+/*   By: lvan-gef <lvan-gef@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/06/17 15:31:07 by lvan-gef      #+#    #+#                 */
 /*   Updated: 2023/06/17 15:31:08 by lvan-gef      ########   odam.nl         */

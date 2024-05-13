@@ -3,7 +3,7 @@
 /*                                                        ::::::::            */
 /*   main.c                                             :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: lvan-gef <marvin@codam.nl>                   +#+                     */
+/*   By: lvan-gef <lvan-gef@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/06/17 15:30:53 by lvan-gef      #+#    #+#                 */
 /*   Updated: 2023/06/17 15:30:54 by lvan-gef      ########   odam.nl         */

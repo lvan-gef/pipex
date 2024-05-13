@@ -3,7 +3,7 @@
 /*                                                        ::::::::            */
 /*   pipex.h                                            :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: lvan-gef <marvin@codam.nl>                   +#+                     */
+/*   By: lvan-gef <lvan-gef@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/29 21:52:56 by lvan-gef      #+#    #+#                 */
 /*   Updated: 2024/05/14 00:13:20 by lvan-gef      ########   odam.nl         */

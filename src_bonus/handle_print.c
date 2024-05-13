@@ -3,7 +3,7 @@
 /*                                                        ::::::::            */
 /*   handle_print.c                                     :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: lvan-gef <marvin@codam.nl>                   +#+                     */
+/*   By: lvan-gef <lvan-gef@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/06/24 15:10:32 by lvan-gef      #+#    #+#                 */
 /*   Updated: 2023/06/24 15:10:34 by lvan-gef      ########   odam.nl         */
