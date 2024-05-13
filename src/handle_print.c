@@ -6,7 +6,7 @@
 /*   By: lvan-gef <marvin@codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/06/20 17:43:54 by lvan-gef      #+#    #+#                 */
-/*   Updated: 2024/05/14 00:03:14 by lvan-gef      ########   odam.nl         */
+/*   Updated: 2024/05/14 00:07:49 by lvan-gef      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ static	void	join_msg(char *outstr, const char *str, const char *str1, size_t siz
 	ft_strlcat(outstr, str1, size);
 }
 
-void	print_error(char *what, bool found)
+void	print_error(const char *what, bool found)
 {
 	char	*out_msg;
 	size_t	new_size;

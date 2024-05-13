@@ -6,7 +6,7 @@
 /*   By: lvan-gef <marvin@codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/29 21:52:56 by lvan-gef      #+#    #+#                 */
-/*   Updated: 2024/05/14 00:06:21 by lvan-gef      ########   odam.nl         */
+/*   Updated: 2024/05/14 00:07:43 by lvan-gef      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,7 @@ void	path_error(t_pipe *pipes, char **arr, char *msg, int rtncode);
 void	exec_error(t_pipe *pipes, char **arr, char *msg, int rtncode);
 
 // handle_print.c
-void	print_error(char *what, bool found);
+void	print_error(const char *what, bool found);
 
 // init.c
 t_pipe	*init(char **argv, char **envp);
