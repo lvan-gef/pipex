@@ -6,13 +6,13 @@
 /*   By: lvan-gef <marvin@codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/06/20 17:50:47 by lvan-gef      #+#    #+#                 */
-/*   Updated: 2023/06/20 17:50:50 by lvan-gef      ########   odam.nl         */
+/*   Updated: 2024/05/14 00:04:25 by lvan-gef      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/pipex.h"
 
-static	ssize_t	pos_of_dubble(char *raw_args)
+static	ssize_t	pos_of_dubble(const char *raw_args)
 {
 	ssize_t	index;
 
@@ -28,7 +28,7 @@ static	ssize_t	pos_of_dubble(char *raw_args)
 	return (-1);
 }
 
-static	ssize_t	pos_of_single(char *raw_args)
+static	ssize_t	pos_of_single(const char *raw_args)
 {
 	ssize_t	index;
 
@@ -44,7 +44,7 @@ static	ssize_t	pos_of_single(char *raw_args)
 	return (-1);
 }
 
-static	ssize_t	pos_of_ws(char *raw_args)
+static	ssize_t	pos_of_ws(const char *raw_args)
 {
 	ssize_t	index;
 

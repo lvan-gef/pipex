@@ -6,7 +6,7 @@
 /*   By: lvan-gef <lvan-gef@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/28 22:55:33 by lvan-gef      #+#    #+#                 */
-/*   Updated: 2023/05/28 22:55:35 by lvan-gef      ########   odam.nl         */
+/*   Updated: 2024/05/14 00:04:41 by lvan-gef      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ size_t	arr_len(char **arr)
 	return (i);
 }
 
-char	*join_path(char *root, char *cmd)
+char	*join_path(const char *root, const char *cmd)
 {
 	size_t	len_root;
 	size_t	len_cmd;
@@ -44,7 +44,7 @@ char	*join_path(char *root, char *cmd)
 	return (cmd_path);
 }
 
-char	**single_to_double_p(char *arr)
+char	**single_to_double_p(const char *arr)
 {
 	char	**out_arr;
 

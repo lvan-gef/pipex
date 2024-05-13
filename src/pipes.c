@@ -6,13 +6,13 @@
 /*   By: lvan-gef <lvan-gef@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/28 22:55:23 by lvan-gef      #+#    #+#                 */
-/*   Updated: 2023/05/28 22:55:25 by lvan-gef      ########   odam.nl         */
+/*   Updated: 2024/05/14 00:04:25 by lvan-gef      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/pipex.h"
 
-static	bool	init_pipes(t_pipe *pipes, int **cmd_pipes)
+static	bool	init_pipes(const t_pipe *pipes, int **cmd_pipes)
 {
 	size_t	index;
 

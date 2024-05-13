@@ -6,7 +6,7 @@
 /*   By: lvan-gef <marvin@codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/29 21:52:56 by lvan-gef      #+#    #+#                 */
-/*   Updated: 2023/06/15 15:51:53 by lvan-gef      ########   odam.nl         */
+/*   Updated: 2024/05/14 00:06:21 by lvan-gef      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,6 +69,6 @@ void	free_close_all_pipes(t_pipe *pipes);
 
 // utils.c
 size_t	arr_len(char **arr);
-char	*join_path(char *root, char *cmd);
-char	**single_to_double_p(char *arr);
+char	*join_path(const char *root, const char *cmd);
+char	**single_to_double_p(const char *arr);
 #endif

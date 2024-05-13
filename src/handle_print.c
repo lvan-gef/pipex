@@ -6,13 +6,13 @@
 /*   By: lvan-gef <marvin@codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/06/20 17:43:54 by lvan-gef      #+#    #+#                 */
-/*   Updated: 2023/06/20 17:48:40 by lvan-gef      ########   odam.nl         */
+/*   Updated: 2024/05/14 00:03:14 by lvan-gef      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/pipex.h"
 
-static	void	join_msg(char *outstr, char *str, char *str1, size_t size)
+static	void	join_msg(char *outstr, const char *str, const char *str1, size_t size)
 {
 	ft_strlcat(outstr, str, size);
 	ft_strlcat(outstr, str1, size);
