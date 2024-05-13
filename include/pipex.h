@@ -6,7 +6,7 @@
 /*   By: lvan-gef <marvin@codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/29 21:52:56 by lvan-gef      #+#    #+#                 */
-/*   Updated: 2024/05/14 00:07:43 by lvan-gef      ########   odam.nl         */
+/*   Updated: 2024/05/14 00:13:20 by lvan-gef      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,10 +45,10 @@ int		run_cmd(t_pipe *pipes, size_t index, char **envp);
 
 // handle_exit.c
 void	exit_pipex(t_pipe *pipes, int rtncode);
-void	init_error(t_pipe *pipes, char *msg, int rtncode);
+void	init_error(t_pipe *pipes, const char *msg, int rtncode);
 void	cmd_error(t_pipe *pipes, char **arr, char **arr1, int rtncode);
-void	path_error(t_pipe *pipes, char **arr, char *msg, int rtncode);
-void	exec_error(t_pipe *pipes, char **arr, char *msg, int rtncode);
+void	path_error(t_pipe *pipes, char **arr, const char *msg, int rtncode);
+void	exec_error(t_pipe *pipes, char **arr, const char *msg, int rtncode);
 
 // handle_print.c
 void	print_error(const char *what, bool found);
@@ -60,10 +60,10 @@ t_pipe	*init(char **argv, char **envp);
 char	**get_paths(t_pipe *pipes, char **envp);
 
 // parse_args.c
-char	**get_arg(t_pipe *pipes, char *raw_arg);
+char	**get_arg(t_pipe *pipes, const char *raw_arg);
 
 // pipes.c
-int		**create_pipes(t_pipe *pipes);
+int		**create_pipes(const t_pipe *pipes);
 void	close_all_pipes(t_pipe *pipes);
 void	free_close_all_pipes(t_pipe *pipes);
 

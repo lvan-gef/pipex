@@ -6,7 +6,7 @@
 /*   By: lvan-gef <marvin@codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/06/11 19:15:02 by lvan-gef      #+#    #+#                 */
-/*   Updated: 2023/06/11 19:15:13 by lvan-gef      ########   odam.nl         */
+/*   Updated: 2024/05/14 00:12:03 by lvan-gef      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ void	exit_pipex(t_pipe *pipes, int rtncode)
 	exit(rtncode);
 }
 
-void	init_error(t_pipe *pipes, char *msg, int rtncode)
+void	init_error(t_pipe *pipes, const char *msg, int rtncode)
 {
 	if (msg)
 		print_error(msg, true);
@@ -43,14 +43,14 @@ void	cmd_error(t_pipe *pipes, char **arr, char **arr1, int rtncode)
 	init_error(pipes, "command error", rtncode);
 }
 
-void	path_error(t_pipe *pipes, char **arr, char *msg, int rtncode)
+void	path_error(t_pipe *pipes, char **arr, const char *msg, int rtncode)
 {
 	if (arr)
 		free_char_arr(arr);
 	init_error(pipes, msg, rtncode);
 }
 
-void	exec_error(t_pipe *pipes, char **arr, char *msg, int rtncode)
+void	exec_error(t_pipe *pipes, char **arr, const char *msg, int rtncode)
 {
 	if (arr)
 	{

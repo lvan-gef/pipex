@@ -6,7 +6,7 @@
 /*   By: lvan-gef <lvan-gef@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/28 22:55:23 by lvan-gef      #+#    #+#                 */
-/*   Updated: 2024/05/14 00:04:25 by lvan-gef      ########   odam.nl         */
+/*   Updated: 2024/05/14 00:09:39 by lvan-gef      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ static	bool	init_pipes(const t_pipe *pipes, int **cmd_pipes)
 	return (true);
 }
 
-int	**create_pipes(t_pipe *pipes)
+int	**create_pipes(const t_pipe *pipes)
 {
 	int	**cmd_pipes;
 

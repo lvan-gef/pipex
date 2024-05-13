@@ -6,7 +6,7 @@
 /*   By: lvan-gef <marvin@codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/06/20 17:50:47 by lvan-gef      #+#    #+#                 */
-/*   Updated: 2024/05/14 00:04:25 by lvan-gef      ########   odam.nl         */
+/*   Updated: 2024/05/14 00:09:12 by lvan-gef      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,7 +81,7 @@ static	char	**clean_arg(t_pipe *pipes, char **raw_args)
 	return (raw_args);
 }
 
-char	**get_arg(t_pipe *pipes, char *raw_arg)
+char	**get_arg(t_pipe *pipes, const char *raw_arg)
 {
 	ssize_t	d_qoute_pos;
 	ssize_t	s_qoute_pos;
