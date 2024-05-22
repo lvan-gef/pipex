@@ -6,7 +6,7 @@
 /*   By: lvan-gef <lvan-gef@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/06/11 19:15:02 by lvan-gef      #+#    #+#                 */
-/*   Updated: 2024/05/14 00:33:01 by lvan-gef      ########   odam.nl         */
+/*   Updated: 2024/05/23 01:19:35 by lvan-gef      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 
 void	exit_pipex(t_pipe *pipes, int rtncode)
 {
+	if (pipes == NULL)
+		exit(rtncode);
 	free_char_arr(pipes->paths);
 	free(pipes->cmds);
 	close_and_free(pipes->pipes_cmd);
