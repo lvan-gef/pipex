@@ -2,7 +2,7 @@ NAME = pipex
 B_NAME = pipex
 
 CC = gcc
-GFLAGS = -Wall -Werror -Wextra -g
+GFLAGS = -Wall -Werror -Wextra -Wshadow -Wpedantic
 
 SRCDIR = src/
 OBJDIR = obj/
