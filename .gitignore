@@ -1,3 +1,5 @@
 *.o
 pipex
 libft/libft.a
+.cache
+compile_commands.json
