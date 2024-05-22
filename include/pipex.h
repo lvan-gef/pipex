@@ -6,7 +6,7 @@
 /*   By: lvan-gef <lvan-gef@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/29 21:52:56 by lvan-gef      #+#    #+#                 */
-/*   Updated: 2024/05/14 00:13:20 by lvan-gef      ########   odam.nl         */
+/*   Updated: 2024/05/23 01:15:07 by lvan-gef      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,8 @@
 # include <errno.h>
 # include <fcntl.h>
 # include <sys/wait.h>
-# include "../libft/headers/libft.h"
+# include <stdbool.h>
+# include "../libft/include/libft.h"
 
 typedef struct s_pipe
 {
