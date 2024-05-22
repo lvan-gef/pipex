@@ -6,7 +6,7 @@
 /*   By: lvan-gef <lvan-gef@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/28 22:55:23 by lvan-gef      #+#    #+#                 */
-/*   Updated: 2024/05/14 00:09:39 by lvan-gef      ########   odam.nl         */
+/*   Updated: 2024/05/23 01:21:58 by lvan-gef      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,19 +63,4 @@ void	close_all_pipes(t_pipe *pipes)
 		close(pipes->pipes_cmd[index][1]);
 		index++;
 	}
-}
-
-void	free_close_all_pipes(t_pipe *pipes)
-{
-	size_t	index;
-
-	index = 0;
-	while (index < pipes->cmd_size)
-	{
-		close(pipes->pipes_cmd[index][0]);
-		close(pipes->pipes_cmd[index][1]);
-		free(pipes->pipes_cmd[index]);
-		index++;
-	}
-	free(pipes->pipes_cmd);
 }

@@ -6,28 +6,13 @@
 /*   By: lvan-gef <lvan-gef@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/05/28 22:54:05 by lvan-gef      #+#    #+#                 */
-/*   Updated: 2023/05/28 22:54:08 by lvan-gef      ########   odam.nl         */
+/*   Updated: 2024/05/23 01:21:45 by lvan-gef      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/pipex.h"
 
 void	free_char_arr(char **arr)
-{
-	size_t	index;
-
-	index = 0;
-	if (arr == NULL)
-		return ;
-	while (arr[index] != NULL)
-	{
-		free(arr[index]);
-		index++;
-	}
-	free(arr);
-}
-
-void	free_int_arr(int **arr)
 {
 	size_t	index;
 
