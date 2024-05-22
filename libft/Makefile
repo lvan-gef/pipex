@@ -69,7 +69,7 @@ $(OBJDIR)gnl/%.o: $(GNLDIR)%.c
 # printf
 $(OBJDIR)ft_printf/%.o: $(PRINTFDIR)%.c
 	@mkdir -p $(OBJDIR)ft_printf
-	$(CC) $(HEADER) -c $(CFLAGS) -o $@ $<
+	$(CC) $(HEADERS) -c $(CFLAGS) -o $@ $<
 
 clean:
 	rm -rf $(OBJDIR)
